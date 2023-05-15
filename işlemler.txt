@@ -1,0 +1,28 @@
+yüklenen uygulamalar
+- nodemon: değişiklikleri terminalde canlı görmek için
+npm i -D nodemon
+çalıştırmak için npx nodemon index.js
+
+- express: http modülünü kullanarak web uygulamalarını kolay ve hızlı bir şekilde geliştirmeyi sağlar.
+npm i express 
+-scripts kısmında nodemon daha kolay çalışması için 
+    "server":"nodemon index.js"
+-import ile çalışmak için package.json da
+  "type": "module" yazdık.
+-postman ile veri inceleme:
+uygulamada yeni bir şeyler eklemek için raw içinde json seçili olmalı
+-import bodyParser from "body-parser"
+eklendi postman ile uyumlu çalışması için
+-id eklemek için
+npm i uuid yüklendi
+-react yüklendi
+npx create-react-app .
+-router dom yüklenir
+npm i react-router-dom
+-axios yüklenir.HTTP işlemleri için
+npm i axios
+-cors yüklenir. HTTP ile frontend arasında köprü kurar
+npm i cors
+-react toastify yüklendi. kullancı eklemelerinin daha güzel görünmesi için
+npm i react-toastify
+
